@@ -6,7 +6,7 @@
  * @version 0.0.1
  */
 
-export default class Watcher {
+module.exports =  class Watcher {
     constructor(obj, attr) {
       Dep.target = this;
       this.obj = obj;

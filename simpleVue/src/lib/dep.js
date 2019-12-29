@@ -5,7 +5,7 @@
  * @version 0.0.1
  */
 
-export default class Dep {
+module.exports = class Dep {
   constructor() {
     this.subs = [];
   }

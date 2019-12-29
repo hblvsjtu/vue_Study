@@ -4,8 +4,11 @@
  * @date    2019-11-24 15:21:01
  * @version 0.0.1
  */
-import Watcher from './watcher';
-import Dep from './dep';
+// import Watcher from './watcher';
+// import Dep from './dep';
+
+const Watcher = require('./watcher');
+const Dep = require('./dep');
 
 function add(a) {
     return a + 1;
